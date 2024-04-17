@@ -1,0 +1,164 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+@media (min-width: 1201px){
+  h1 {
+    font-size: 5rem;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+  }
+
+  footer {
+    text-align: right;
+    color: midnightblue;
+    clear: both;
+  }
+
+  .logo {
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+
+  #creative {
+    color: midnightblue;
+  }
+
+  #design-agency {
+    display: block;
+  }
+
+  .tile-image {
+    float: left;
+    height: 200px;
+    margin-right: 5%;
+  }
+
+  .left {
+    background-color: #faf9f6;
+    float: left;
+    width: 45%;
+  }
+
+  .right {
+    background-color: #faf9f6;
+    float: right;
+    width: 45%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px){
+  .main {
+    text-align: center;
+  }
+  h1 {
+    font-size: 4rem;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+  }
+  
+  footer {
+    text-align: right;
+    color: midnightblue;
+    clear: both;
+  }
+  
+  .logo {
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+  
+  #creative {
+    color: midnightblue;
+  }
+  
+  #design-agency {
+    display: block;
+  }
+  
+  .tile-image {
+    width: 80%;
+    height: 100%;
+  }
+  
+  .left {
+    background-color: #faf9f6;
+    float: left;
+    width: 40%;
+    margin: 0 5%;
+  }
+  
+  .right {
+    background-color: #faf9f6;
+    float: right;
+    width: 40%;
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 480px){
+
+  .main {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 5px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+  }
+
+  footer {
+    text-align: right;
+    color: midnightblue;
+    clear: both;
+  }
+
+  .logo {
+    display: block;
+    height: 20px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+
+  #creative {
+    color: midnightblue;
+  }
+
+  #design-agency {
+    display: block;
+  }
+
+  .tile-image {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .left {
+    background-color: #faf9f6;
+    text-align: center;
+  }
+
+  .right {
+    background-color: #faf9f6;
+    text-align: center;
+  }
+}
